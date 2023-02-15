@@ -83,10 +83,19 @@ from employees e
 left join salaries as s
 on e.emp_no = s.emp_no;
 
+select e.emp_no, e.last_name, e.first_name, e.sex
+from employees as e 
+where e.emp_no in
+	(
+	select emp_no
+	from salaries 
+	);
+
 --Question 2
-select e.first_name, e.last_name
+
+select e.first_name, e.last_name, e.hire_date
 from employees as e
-where year(hire_date) = "%/%/1986";
+where hire_date LIKE '%/%/1986';
 
 --Question 3
 
