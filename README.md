@@ -12,7 +12,7 @@ In the <EmployeeSQL> folder:
       This is my sql file, which includes the table schemata and queries in one. 
       I kept changing my ERD, hence there are 2 other sql files, but please ignore these.
       
-      For question 1 I demonstrated 2 ways to get the same result. I used joind and another used sub-query.
+      For question 1, I demonstrated two ways to get the same result. I used joins and then a sub-query.
       
 4. Question1-Question8.csv files saved from sql.
 
