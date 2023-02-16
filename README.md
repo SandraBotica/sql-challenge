@@ -4,9 +4,9 @@ In the <EmployeeSQL> folder:
 
 1. challenge9questions.ipynb    
       This is the bonus activity, answering all 8 questions in a jupyter notebook.
-2. QuickDBD-Challenge9new.svg   
+2. QuickDBD-Challenge9.svg   
       This is the quickdatabase diagram image saved.
-3. Challenge9newest.sql         
+3. Challenge9.sql         
       This is my sql script file. I kept changing my ERD, hence there are 2 other sql files, but please ignore these.
 4. Question1-Question8.csv files saved from sql.
 
