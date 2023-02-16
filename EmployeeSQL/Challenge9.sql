@@ -1,7 +1,7 @@
 
 CREATE TABLE "employees" (
     "emp_no" INTEGER   NOT NULL,
-    "emp_title_id" VARCHAR(10)   NOT NULL,
+    "emp_title_id" VARCHAR(5)   NOT NULL,
     "birth_date" VARCHAR(10)   NOT NULL,
     "first_name" VARCHAR(20)   NOT NULL,
     "last_name" VARCHAR(20)   NOT NULL,
@@ -15,8 +15,8 @@ CREATE TABLE "employees" (
 select * from employees;
 
 CREATE TABLE "titles" (
-    "title_id" VARCHAR(10)   NOT NULL,
-    "title" VARCHAR(20)   NOT NULL,
+    "title_id" VARCHAR(5)   NOT NULL,
+    "title" VARCHAR(18)   NOT NULL,
     CONSTRAINT "pk_titles" PRIMARY KEY (
         "title_id"
      )
@@ -25,8 +25,8 @@ CREATE TABLE "titles" (
 select * from titles;
 
 CREATE TABLE "departments" (
-    "dept_no" VARCHAR(10)   NOT NULL,
-    "dept_name" VARCHAR(20)   NOT NULL,
+    "dept_no" VARCHAR(4)   NOT NULL,
+    "dept_name" VARCHAR(18)   NOT NULL,
     CONSTRAINT "pk_departments" PRIMARY KEY (
         "dept_no"
      )
@@ -35,7 +35,7 @@ CREATE TABLE "departments" (
 select * from departments;
 
 CREATE TABLE "dept_manager" (
-    "dept_no" VARCHAR(10)   NOT NULL,
+    "dept_no" VARCHAR(4)   NOT NULL,
     "emp_no" INTEGER   NOT NULL
 );
 
@@ -43,7 +43,7 @@ select * from dept_manager;
 
 CREATE TABLE "dept_emp" (
     "emp_no" INTEGER   NOT NULL,
-    "dept_no" VARCHAR(10)   NOT NULL
+    "dept_no" VARCHAR(4)   NOT NULL
 );
 
 select * from dept_emp;
