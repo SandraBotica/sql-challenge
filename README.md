@@ -4,7 +4,7 @@ In the <EmployeeSQL> folder:
 
 1. challenge9questions.ipynb    
       This is the bonus activity, answering all 8 questions in a jupyter notebook.
-2. QuickDBD-Challenge9.svg   
+2. QuickDBD-Challenge9.svg  & QuickDBD-Challenge9.png 
       This is the quickdatabase diagram image saved. 
       You will notice that I wasn't able to include 'Not Null' as this app does it by default. 
       When this was exported to a PostgreSQL query it included Not Null.
